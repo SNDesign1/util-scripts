@@ -2,10 +2,10 @@
 
 param (
     [Parameter(Mandatory=$true)]
-    [String]$SourceDirectory, # C:\Users\Simeo\Perforce\Simeon_Laptop\client-projects\GameFeatures\Dashboard
+    [String]$SourceDirectory, 
 
     [Parameter(Mandatory=$true)]
-    [String]$TargetDirectory # C:\Users\Simeo\Perforce\Simeon_Laptop\client-projects\XRDashboard\Plugins\GameFeatures
+    [String]$TargetDirectory 
 )
 
 function New-Link ($RealDirectory, $LinkDirectory) {
